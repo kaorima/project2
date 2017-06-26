@@ -1,0 +1,306 @@
+/*----Main Styles----*/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-link a,
+.contact a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a:hover {
+  color: #000;
+}
+
+
+
+/*----Navigation----*/
+
+.wrapper {
+  background-color: whitesmoke;
+  padding-bottom: 35px;
+}
+
+.nav-link a {
+  display: block;
+  font-weight: 700;
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 3px 30px;
+}
+
+.nav-link p {
+  margin: 0 30px 30px 30px;
+  padding-bottom: 35px;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+.home-img {
+  width: 180px;
+  margin: 20px auto;
+}
+
+
+
+/*----Portfolio----*/
+
+h3 {
+  padding-top: 20px;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+.img {
+  width: 280px;
+  margin: 30px auto;
+}
+
+.main-page {
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+/*----Contact----*/
+
+.contact {
+  background-color: ghostwhite;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.bottom {
+  border-top: 2px solid lightgrey;
+  margin: 30px;
+}
+
+.bottom li {
+  font-size: 0.85em;
+}
+
+.contact h2 {
+  margin-bottom: 0;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft,
+.alignright {
+  margin-top: 20px;
+}
+
+.footlink,
+footer {
+  visibility: hidden;
+}
+
+
+
+/*----Media Query----*/
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  /*--Navigation--*/
+  
+  .wrapper {
+    padding-top: 25px;
+  }
+  
+  .nav-link li {
+    display: inline-block;
+    
+  }
+  
+  .nav-link a {
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  
+  .home-img {
+    width: 280px;
+  }
+  
+  .nav-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .home-img {
+    width: 35%;
+    float: right;
+    margin-right: 30px;
+  }
+  
+  .nav-wrapper p {
+    width: 55%;
+    font-size: 1.25em;
+    padding: 0;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  
+  /*--Portfolio--*/
+  
+
+  .main-page {
+    width: 768px;
+  }
+  
+  .main-wrapper {
+    display: inline-block;
+    width: 370px;
+    margin: 0;
+  }
+  
+  .img {
+    width: 340px;
+  }
+  
+
+  /*--Contact--*/
+  
+  .contact {
+    padding-bottom: 60px;
+  }
+  .contact p {
+    font-size: 1.25em;
+  }
+  
+  .alignright {
+    display: none;
+  }
+  
+  .footlink {
+    visibility: visible;
+}
+  
+  .bottom li {
+    font-size: 1.25em;
+    padding-top: 20px;
+  }
+  
+  .footlink li {
+    display: inline-block;
+    margin-right: 15px;
+    float: right;
+  }
+  
+  
+}
+
+
+@media (min-width: 1024px) {
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  /*--Navigation--*/
+  
+  .wrapper {
+    display: inline-block;
+    padding-top: 15px;
+  }
+  
+  .wrapper h1 {
+    float: left;
+    padding-left: 50px;
+  }
+  
+  .nav-link {
+    float: right;
+    padding-right: 20px;
+  }
+  
+  .nav-wrapper p {
+    padding-left: 50px;
+  }
+  
+  .home-img {
+    padding-left: 20px;
+  }
+  
+  
+  /*--Portfolio--*/
+  
+  .main-page {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+  
+  h3 {
+    font-size: 1.25em;
+    padding-bottom: 15px;
+  }
+  
+  h2 {
+    padding: 20px;
+  }
+  
+  .main-wrapper {
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    padding-bottom: 10px;
+    
+  }
+  
+  .img {
+    width: 290px;
+    margin: 0;
+  }
+  
+}
